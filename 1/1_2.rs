@@ -28,8 +28,7 @@ fn main() {
     
     // It will even check to make sure the correct number of arguments are
     // used.
-    println!("My name is {0}, {1} {0}", "Bond");
-    // FIXME ^ Add the missing argument: "James"
+    println!("My name is {0}, {1} {0}", "Bond", "James");
     
     // Create a structure which contains an 'i32'. Name it 'Structure'.
     struct Structure(i32);
