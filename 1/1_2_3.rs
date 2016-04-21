@@ -32,7 +32,10 @@ impl Display for Color {
 
     fn fmt(&self, f: &mut Formatter) -> fmt::Result {
     
-        write!(f, "({0}, {1}, {2}) 0x{0:X}{1:X}{2:X}", 
+        write!(f, "({0}, {1}, {2}) 0x{3:X}{4:X}{5:X}", 
+               self.red,
+               self.green,
+               self.blue,
                self.red,
                self.green,
                self.blue)
