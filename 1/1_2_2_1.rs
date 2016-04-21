@@ -1,4 +1,4 @@
-use std:fmt; // Import the 'fmt' module.
+use std::fmt; // Import the 'fmt' module.
 
 // Define a structure named 'List' containing a 'Vec'.
 struct List(Vec<i32>);
