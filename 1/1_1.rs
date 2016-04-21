@@ -3,7 +3,7 @@ fn main() {
     // Notice how there are two slashes at the beginning of the line
     // And that nothing written inside these will be read by the compiler
     
-    // println!("Hello, world!");
+    println!("Hello, world!");
     
     // Run it. See? Now try deleting the two slashes, and run it again.
     
@@ -21,6 +21,6 @@ fn main() {
     // Observe how block comments allow easy expression manipulation
     // which line comments do not. Deleting the comment delimiters
     // will change the result:
-    let x = 5 + /* 90 + */ 5;
+    let x = 5 + 90 + 5;
     println!("Is 'x' 10 or 100? x = {}", x);
 }
