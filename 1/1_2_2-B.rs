@@ -40,7 +40,7 @@ impl fmt::Display for Complex {
 
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
         
-        write!(f, "{} + {}i", self.real, self.imag);
+        write!(f, "{} + {}i", self.real, self.imag)
     }
 }
 
