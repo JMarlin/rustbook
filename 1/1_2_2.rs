@@ -17,3 +17,10 @@ impl fmt::Display for Structure {
         write!(f, "{}", self.0)
     }
 }
+
+fn main() {
+
+    let s = Structure(12);
+    
+    println!("{}", s);
+}
