@@ -16,7 +16,7 @@ impl Display for City {
         
         // 'write!' is like 'format!', but it will write the formatted string
         // into a buffer (the first argument)
-        write!(f, "{}: {:.3)deg {} by {:.3}deg {}",
+        write!(f, "{}: {:.3}deg {} by {:.3}deg {}",
                self.name, self.lat.abs(), lat_c, self.lon.abs(), lon_c)
     }
 }
