@@ -39,5 +39,5 @@ fn main() {
     // FIXME ^ Comment out this line
     
     //Final example as per the book:
-    println!("Pi is roughly {0.3}", 22/7);
+    println!("Pi is roughly {:.3}", 22/7);
 }
